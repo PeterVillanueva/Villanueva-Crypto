@@ -17,7 +17,7 @@ const Hero = () => (
     >
       <div className="flex justify-center items-center flex-col relative z-10">
         <motion.h1 variants={textVariant(1.1)}
-          className={styles.heroHeading}
+          className={`${styles.heroHeading}`}
         >
           Metaverse
         </motion.h1>
@@ -52,7 +52,7 @@ const Hero = () => (
               src='stamp.png'
               alt="stamp"
               className="sm:w-[155px] w-[100px] 
-                sm:h[155px] h-[100px] object-contain"
+                sm:h[155px] h-[100px] object-contain animate-spin"
             />
           </div>
         </a>
