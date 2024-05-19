@@ -17,7 +17,7 @@ const InsightCard = ({ imgUrl, title, subtitle, index }) => (
     />
     <div className="w-full flex justify-between items-center">
       <div className="flex-1 md:ml-[62px]
-    flex flex-col max-w-[650px]"
+      flex flex-col max-w-[650px]"
       >
         <h4 className="font-semibold lg:text-[42px]
       text-[26px] text-white"
@@ -37,7 +37,7 @@ const InsightCard = ({ imgUrl, title, subtitle, index }) => (
         <img
           src="arrow.svg"
           alt="arrow"
-          className="w-[40% h-[40%] object-contain"
+          className="w-[40%] h-[40%] object-contain"
         />
       </div>
     </div>
