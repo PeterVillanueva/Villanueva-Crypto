@@ -14,7 +14,7 @@ const Navbar = () => (
     <div className="absolute w-[50%] inset-0
      gradient-01"
     />
-    <div className={`${styles.innerwidth} mx-auto flex justify-between gap-8`}>
+    <div className={`${styles.innerWidth} mx-auto flex justify-between gap-8`}>
       <img
         src="search.svg"
         alt="search"
