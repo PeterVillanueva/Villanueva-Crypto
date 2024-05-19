@@ -1,8 +1,6 @@
 'use client';
 
 import { motion } from 'framer-motion';
-import menu from '../public/menu.svg'
-import search from '../public/search.svg'
 import styles from '../styles';
 import { navVariants } from '../utils/motion';
 
