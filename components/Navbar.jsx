@@ -1,7 +1,8 @@
 'use client';
 
 import { motion } from 'framer-motion';
-
+import menu from '../public/menu.svg'
+import search from '../public/search.svg'
 import styles from '../styles';
 import { navVariants } from '../utils/motion';
 
@@ -17,7 +18,7 @@ const Navbar = () => (
     />
     <div className={`${styles.innerwidth} mx-auto flex justify-between gap-8`}>
       <img
-        src="/search.svg"
+        src="search.svg"
         alt="search"
         className="w-[24px] h-[24px] object-contain"
 
@@ -30,7 +31,7 @@ const Navbar = () => (
         METAVERSE
       </h2>
       <img
-        src="/menu.svg"
+        src="menu.svg"
         alt="menu"
         className="w-[24px] h-[24px] object-contain"
       />
